@@ -193,6 +193,7 @@ export default function Portfolio() {
                   Let's Talk
                 </button>
                 
+                <a
                   href="./Dravid_Resume_.pdf"
                   download
                   className="px-8 py-4 bg-white dark:bg-slate-800 text-slate-900 dark:text-white rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center gap-2 border-2 border-slate-200 dark:border-slate-700"
@@ -258,7 +259,7 @@ export default function Portfolio() {
             <div className="space-y-8">
               <div className="bg-white dark:bg-slate-800/50 rounded-2xl p-8 md:p-12 shadow-xl backdrop-blur-sm">
                 <p className="text-xl md:text-2xl font-semibold text-slate-900 dark:text-white leading-relaxed mb-6">
-                  I'm a full-stack engineer who architects production systems independently. Discipline from 5 years of competitive cricket taught me execution under pressure — a skill I bring to every line of code.
+                  I'm a full-stack engineer who architectures production systems independently. Discipline from 5 years of competitive cricket taught me execution under pressure — a skill I bring to every line of code.
                 </p>
                 
                 <div className="space-y-4 text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
@@ -440,7 +441,7 @@ export default function Portfolio() {
                     </h3>
                     
                     <div className="space-y-4">
-                      
+                      <a
                         href="mailto:dravidsuju@gmail.com"
                         className="flex items-center gap-4 p-4 rounded-xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors group"
                       >
@@ -451,7 +452,7 @@ export default function Portfolio() {
                         </div>
                       </a>
 
-                      
+                      <a
                         href="tel:+916374877701"
                         className="flex items-center gap-4 p-4 rounded-xl bg-slate-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors group"
                       >
@@ -478,7 +479,7 @@ export default function Portfolio() {
                     </h3>
                     
                     <div className="space-y-3">
-                      
+                      <a
                         href="https://linkedin.com/in/dravid-kumar"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -491,7 +492,7 @@ export default function Portfolio() {
                         <ExternalLink className="w-5 h-5 text-slate-400 group-hover:translate-x-1 transition-transform" />
                       </a>
 
-                      
+                      <a
                         href="https://github.com/dravid-kumar"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -504,7 +505,7 @@ export default function Portfolio() {
                         <ExternalLink className="w-5 h-5 text-slate-400 group-hover:translate-x-1 transition-transform" />
                       </a>
 
-                      
+                      <a
                         href="./Dravid_Resume_.pdf"
                         download
                         className="flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white hover:shadow-lg transition-all group"
